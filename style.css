@@ -496,3 +496,45 @@ p {
   color: #ababab;
   padding-left: 50px;
 }
+
+.box-picture {
+  width: 300px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: #3d83df;
+  margin: 0;
+}
+.box-picture-1 {
+  display: flex;
+  justify-content: space-around;
+  gap: 70px;
+  padding: 10px;
+}
+
+.box-picture-1 h4 {
+  color: #747474;
+  font-weight: 500;
+}
+
+.final-box {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.button-warsaw {
+  height: 30px;
+  width: 150px;
+  background-color: #3d83df;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+}
